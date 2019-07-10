@@ -34,7 +34,9 @@
     ]
   },
   "devDependencies": {
+    "css-loader": "^3.0.0",
     "gh-pages": "^2.0.1",
+    "postcss-loader": "^3.0.0",
     "semantic-ui-react": "^0.87.3"
   }
 }

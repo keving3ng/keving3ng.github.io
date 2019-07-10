@@ -27,8 +27,10 @@ const ResumeRow = ({ data }) => {
   const renderEntries = data => {
     return data.entries.map(entry => {
       return (
-        <Message key={entry.title}>
-          <h3 style={{ marginBottom: "0px" }}>{entry.title}</h3>
+        <Message key={entry.title} style={{ backgroundColor: "#FFFFFF" }}>
+          <h3 style={{ marginBottom: "0px", color: "#00887a" }}>
+            {entry.title}
+          </h3>
           {renderSubtitle(entry.subtitleIsLink, entry.subtitle)}
           {entry.desc.map(line => {
             return <p key={hash(line)}>{line}</p>;
@@ -41,7 +43,10 @@ const ResumeRow = ({ data }) => {
   return (
     <Grid>
       <Grid.Column width={4}>
-        <h2 style={{ color: "#52658f" }}>{data.section}</h2>
+        <h2 style={{ color: "#d3e3fc", marginBottom: "5px" }}>
+          {data.section}
+        </h2>
+        <hr />
       </Grid.Column>
       <Grid.Column width={12}>{renderEntries(data)}</Grid.Column>
     </Grid>

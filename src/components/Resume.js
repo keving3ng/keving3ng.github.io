@@ -12,11 +12,11 @@ const Resume = ({ data }) => {
       </Grid.Column>
       <Grid.Column width={4}>
         <Segment>
-          <h2>Contact</h2>
+          <h2 style={{ color: "#00887a" }}>Contact</h2>
           <p>(613) 618-7938 kevin.geng@quarksys.ca</p>
         </Segment>
         <Segment>
-          <h2>Links</h2>
+          <h2 style={{ color: "#00887a" }}>Links</h2>
           <form
             action="https://github.com/keving3ng/"
             style={{ display: "inline-block" }}
