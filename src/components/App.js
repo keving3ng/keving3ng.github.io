@@ -12,7 +12,7 @@ class App extends React.Component {
             className="ui huge header"
             textAlign="left"
             style={{
-              paddingTop: "40px",
+              paddingTop: "60px",
               paddingBottom: "20px"
             }}
           >
@@ -21,14 +21,11 @@ class App extends React.Component {
                 <div />
               </Grid.Column>
               <Grid.Column width={9}>
-                <font size="+9" color="#F7C877">
-                  Kevin{" "}
-                </font>
-                <font size="+9" color="#F7C877">
-                  Geng
+                <font style={{ fontSize: "4em", color: "#e7cc18" }}>
+                  Kevin Geng
                 </font>
                 <br />
-                <font size="+3">Software Engineering Student</font>
+                <font size="5">Software Engineering Student</font>
               </Grid.Column>
             </Grid>
           </Header>
