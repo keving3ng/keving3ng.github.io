@@ -3,7 +3,7 @@
   "entries": [{
     "tags": "software",
     "title": "Carleton University / ​B.Eng, Software Engineering",
-    "hasSubtitle": true,
+    "subtitleIsLink": false,
     "subtitle": "SEPTEMBER 2017 - APRIL 2022 (expected), OTTAWA",
     "desc": [
       "Using Java, gained experience with object oriented programming, algorithms, and data structures,",
@@ -17,7 +17,7 @@
   "entries": [{
     "tags": "sales, retail",
     "title": "Simply Smart Home / ​ Sales Associate",
-    "hasSubtitle": true,
+    "subtitleIsLink": false,
     "subtitle": "MAY 2018 - AUGUST 2018, OTTAWA",
     "desc": [
       "Engaged with customers of all levels of knowledge and interest to tailor and pitch home automation solutions ",
@@ -26,7 +26,7 @@
   }, {
     "tags": "writing, editing, web, software",
     "title": "Quarksys Consulting Inc. / ​ Editor, Website Developer",
-    "hasSubtitle": true,
+    "subtitleIsLink": false,
     "subtitle": "FEBRUARY 2017 - MAY 2017, OTTAWA",
     "desc": [
       "Proofread documents intended for clients, such as a Request for Information",
@@ -39,7 +39,7 @@
   "entries": [{
     "tags": "javascript, react, web, api, database",
     "title": "dbl",
-    "hasSubtitle": true,
+    "subtitleIsLink": true,
     "subtitle": "https://github.com/keving3ng/dbl",
     "desc": [
       "Learning project to explore various tools and platforms of UI, API, and DB development."
@@ -47,7 +47,7 @@
   }, {
     "tags": "web, react, javascript",
     "title": "Personal Website",
-    "hasSubtitle": true,
+    "subtitleIsLink": true,
     "subtitle": "keving3ng.github.io",
     "desc": [
       "This is it."
@@ -59,7 +59,7 @@
   "entries": [{
     "tags": "software",
     "title": "Programming Languages",
-    "hasSubtitle": false,
+    "subtitleIsLink": false,
     "subtitle": "",
     "desc": [
       "JavaScript, Java > Python, C > HTML, CSS, Racket, Assembly, SQL"
@@ -67,7 +67,7 @@
   }, {
     "tags": "software",
     "title": "Tools & Frameworks -",
-    "hasSubtitle": false,
+    "subtitleIsLink": false,
     "subtitle": "",
     "desc": [
       "Git, Linux, React, Docker, AWS, IntelliJ, VS Code, WordPress, Excel"
@@ -75,7 +75,7 @@
   }, {
     "tags": "languages",
     "title": "Languages -",
-    "hasSubtitle": false,
+    "subtitleIsLink": false,
     "subtitle": "",
     "desc": [
       "French, Chinese (Mandarin)"
@@ -83,7 +83,7 @@
   }, {
     "tags": "sales, writing, editing",
     "title": "Other-",
-    "hasSubtitle": false,
+    "subtitleIsLink": false,
     "subtitle": "",
     "desc": [
       "Writing, Proofreading, Public Speaking, Sales"

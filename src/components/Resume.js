@@ -7,7 +7,7 @@ const Resume = ({ data }) => {
     <Grid>
       <Grid.Column width={12}>
         {data.map(section => {
-          return <ResumeRow data={section} />;
+          return <ResumeRow key={section.section} data={section} />;
         })}
       </Grid.Column>
       <Grid.Column width={4}>
@@ -17,9 +17,30 @@ const Resume = ({ data }) => {
         </Segment>
         <Segment>
           <h2>Links</h2>
-          <a href="https://github.com/keving3ng">Github</a>
-          <br />
-          <a href="https://linkedin.com/in/kgeng">LinkedIn</a>
+          <form
+            action="https://github.com/keving3ng/"
+            style={{ display: "inline-block" }}
+          >
+            <button
+              className="ui basic icon button"
+              style={{ marginBottom: "5px" }}
+              type="submit"
+            >
+              <i className="github icon" />
+            </button>
+          </form>
+          <form
+            action="https://linkedin.com/in/kgeng/"
+            style={{ display: "inline-block" }}
+          >
+            <button
+              className="ui blue icon button"
+              style={{ marginBottom: "5px" }}
+              type="submit"
+            >
+              <i className="linkedin icon" />
+            </button>
+          </form>
         </Segment>
       </Grid.Column>
     </Grid>
